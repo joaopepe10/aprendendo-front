@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: yellow ;
+}
+
+.apresentacao {
+    display: flex;
+}
+
+.titulo-destaque {
+    color: blue;
+}
+
+.tecnologias-destaque {
+    color:blue;
+}
+
