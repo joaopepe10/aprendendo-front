@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Scribble&family=Workbench&display=swap');
+
+:root {
+    --cor-primaria : cornflowerblue;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +18,63 @@ body {
 }
 
 .apresentacao {
+    margin: 10%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 40px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.apresentacao__conteudo__paragrafo{
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
 }
 
 .titulo-destaque {
-    color: blue;
+    color: var(--cor-primaria);
 }
 
 .tecnologias-destaque {
-    color:blue;
+    color:var(--cor-primaria);
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
 }
 
+.apresentacao_botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao_botoes_link {
+    background-color: var(--cor-primaria);
+    width: 180px;
+    text-align: center;
+    border-radius: 16px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
